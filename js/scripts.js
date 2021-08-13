@@ -5,7 +5,9 @@ $(document).ready(function() {
 
     $("#formRadio1").submit(function(event) {
         event.preventDefault();
-
+        $("#cow").hide();
+        $("#snake").hide();
+        $("#werewolf").hide();
         const bestProgramAnswer1 = $("input:radio[name=answer1]:checked").val();
         if (bestProgramAnswer1 === "JavaScript") {
             $("#formRadio1").hide();
@@ -48,23 +50,23 @@ $(document).ready(function() {
         if (bestProgramAnswer3 === "JavaScript") {
             JavaScript++;
             $("#formRadio3").hide();
-            alert(JavaScript);
-            alert(Ruby);
-            alert(Python);
+            // alert(JavaScript);
+            // alert(Ruby);
+            // alert(Python);
 
         } else if (bestProgramAnswer3 === "Ruby") {
             Ruby++;
             $("#formRadio3").hide();
-            // alert(JavaScript);
-            // alert(Ruby);
-            // alert(Python);
+            //     alert(JavaScript);
+            //     alert(Ruby);
+            //     alert(Python);
         } else if (bestProgramAnswer3 === "Python") {
             Python++;
             $("#formRadio3").hide();
             // Test whether scores are being tabulated
-            // alert(JavaScript);
-            // alert(Ruby);
-            // alert(Python);   
+            alert(JavaScript);
+            alert(Ruby);
+            alert(Python);
         } else {}
         // Calculate and show Results
         $("#showResult").show();
