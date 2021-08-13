@@ -78,7 +78,7 @@ $(document).ready(function() {
             $("#PythonResult").show();
         } else {
             // $("#showResult").hide();
-            $("#noResult").show()
+            $("#noresult").show()
                 // alert("testno");
         }
 
