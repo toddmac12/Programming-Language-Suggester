@@ -22,6 +22,7 @@ $(document).ready(function() {
         } else {}
     });
 
+
     $("#formRadio2").submit(function(event) {
         event.preventDefault();
         const bestProgramAnswer2 = $("input:radio[name=answer2]:checked").val();
