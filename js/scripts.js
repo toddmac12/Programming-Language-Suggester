@@ -48,9 +48,9 @@ $(document).ready(function() {
         if (bestProgramAnswer3 === "JavaScript") {
             JavaScript++;
             $("#formRadio3").hide();
-            // alert(JavaScript);
-            // alert(Ruby);
-            // alert(Python);
+            alert(JavaScript);
+            alert(Ruby);
+            alert(Python);
 
         } else if (bestProgramAnswer3 === "Ruby") {
             Ruby++;
