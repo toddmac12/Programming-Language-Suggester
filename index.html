@@ -1,18 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
+    <title>Best Program Language</title>
 </head>
 
 <body>
+    <h2>What is the best program for you to Learn?</h2>
+    <h4>Take this survey find the one that maybe best for you out!</h4>
+
+    <div class="container">
+        <form id="formRadio1">
+            <h2>Question 1:</h2>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer1" value="JavaScript" required />
+          JavaScript
+        </label>
+            </div>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer1" value="Ruby" />
+          Ruby
+        </label>
+            </div>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer1" value="Python" />
+          Python
+        </label>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+        <form id="formRadio2">
+            <h2>Question2</h2>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer2" value="JavaScript" required />
+          JavaScript
+        </label>
+            </div>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer2" value="Ruby" />
+          Ruby
+        </label>
+            </div>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer2" value="Python" />
+          Python
+        </label>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+        <form id="formRadio3">
+            <h2>Question 3</h2>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer3" value="JavaScript" required />
+          JavaScript
+        </label>
+            </div>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer3" value="Ruby" />
+          Ruby
+        </label>
+            </div>
+            <div class="radio">
+                <label>
+          <input type="radio" name="answer3" value="Python" />
+          Python
+        </label>
+            </div>
+            <button type="submit" class="btn btn-warning">Calculate!</button>
+        </form>
+        <div id="showResult">
+            <h1>You are:</h1>
+            <div id="JavaScriptResult">
+                <div class="card-smaller">
+                    <h1 class="card-header">JavaScript</h1>
+                    bestProgramAnswer3
+                </div>
+            </div>
+            <div id="RubyResult">
+                <div class="card-smaller">
+                    <h1 class="card-header">Ruby</h1>
+                    <h1></h1>>
+                </div>
+
+                <div id="PythonResult">
+                    <div class="card-smaller">
+                        <h1 class="card-header">Python</h1>
+                        <h1></h1>
+                    </div>
+                </div>
+
+                <!-- Intentionally outside of the showResult dialog -->
+                <!-- Hides the showResult div in the js to prevent awkward dialog -->
+                <div id="noResult">
+                    <h1>You can't make up your mind!</h1>
+                    <img class="img" src="img/noresult.jpg" />
+                </div>
+
+                <p>
+                    <button class="btn btn-success" id="btnReset">Reset</button>
+                </p>
+
+            </div>
 
 </body>
 
