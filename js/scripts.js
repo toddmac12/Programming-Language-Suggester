@@ -50,42 +50,31 @@ $(document).ready(function() {
         if (bestProgramAnswer3 === "JavaScript") {
             JavaScript++;
             $("#formRadio3").hide();
-            // alert(JavaScript);
-            // alert(Ruby);
-            // alert(Python);
+
 
         } else if (bestProgramAnswer3 === "Ruby") {
             Ruby++;
             $("#formRadio3").hide();
-            //     alert(JavaScript);
-            //     alert(Ruby);
-            //     alert(Python);
+
         } else if (bestProgramAnswer3 === "Python") {
             Python++;
             $("#formRadio3").hide();
-            // Test whether scores are being tabulated
-            alert(JavaScript);
-            alert(Ruby);
-            alert(Python);
+
         } else {}
-        // Calculate and show Results
+
         $("#showResult").show();
         if (JavaScript >= 2) {
-            // alert("testJavaScript");
+
             $("#JavaScriptResult").show();
         } else if (Ruby >= 2) {
-            // alert("testRuby");
+
             $("#RubyResult").show();
         } else if (Python >= 2) {
-            // alert("testPython");
             $("#PythonResult").show();
         } else {
-            // $("#showResult").hide();
             $("#noresult").show()
-                // alert("testno");
         }
 
-        // reset button
         $("#btnReset").click(function() {
             location.reload();
         });
