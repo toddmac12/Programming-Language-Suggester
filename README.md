@@ -18,23 +18,16 @@ Git
 
 ## Description
 
-Create an application for people interested in coding to decide which language they should learn first. Keep in mind that even though all languages have similarities and switching between languages and platforms is very common in both internships and jobs, applicants should still put some thought into which language they should learn.
+This an application for people interested in coding to decide which language they should learn first. Keep in mind that even though all languages have similarities and switching between languages and platforms is very common in both internships and jobs, applicants should still put some thought into which language they should learn.
 
-Choose at least three languages that prospective learners should consider. Here are some possibilities:
+Here are three languages that prospective learners should consider, they are :
 
 Ruby
-C#
 JavaScript
-Go
 Python
-Rust
-Swift
-Feel free to pick any language that interests you, either from this list or from your own research.
 
-Then create a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. Note that you are not required to research the languages extensively and you can even choose silly or irrelevant questions to determine which language would be best - for instance, people that like singing in the rain may prefer Ruby while chihuahua lovers might prefer C#.
 
-Include a minimum of 5 survey questions.
-Offer a minimum of 3 different language suggestions.
+The Programming Language Suggester will asks future students a 5 questions about themselves and provides a language suggestion based on their answers as well as alinkto Epicodus Computer Boot Camp School. 
 
 ## Setup/Installation Requirements
 
