@@ -1,5 +1,4 @@
-# _{Application Name}_
-Programming Language Suggester
+
 
 #### _{Brief description of application}_
 an application for people interested in coding to decide which language they should learn first.
