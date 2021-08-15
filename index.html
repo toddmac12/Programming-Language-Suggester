@@ -14,121 +14,125 @@
 </head>
 
 <body>
-    <h2>What is the best program for you to Learn?</h2>
-    <h4>Take this survey find the one that is best for you.</h4>
 
-    <div class="container">
-        <form id="formRadio1">
-            <h2>Question 1:</h2>
+    <div class="jumbotonjumbotron-fluid">
+        <div class="container">
+            <h2 class="display 5">What is thebestprogram for you to learn? Take this survey to find out.
+            </h2>
+        </div>
+    </div>
 
-            <div class="radio">
-                <label>
+
+    <form class="card-smaller" id="formRadio1">
+        <!-- </h4>Take this survey find the one that is best for you.</h4> -->
+        <h2 class="card-header">Question 1:</h2>
+
+        <div class="radio">
+            <label>
                 <input type="radio" name="answer1" value="JavaScript" required /> JavaScript
                 </label>
-            </div>
+        </div>
 
-            <div class="radio">
-                <label>
+        <div class="radio">
+            <label>
           <input type="radio" name="answer1" value="Ruby" />
           Ruby
         </label>
-            </div>
+        </div>
 
-            <div class="radio">
-                </label>
-                <input type="radio" name="answer1" value="Python" /> Python
-                </label>
-            </div>
-            <button type="submit" class="btn btn-success">Submit</button>
+        <div class="radio">
+            </label>
+            <input type="radio" name="answer1" value="Python" /> Python
+            </label>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
 
-        </form>
+    </form>
 
-        <form id="formRadio2">
-            <h2>Question2</h2>
-            <div class="radio">
-                <label>
+    <form id="formRadio2">
+        <h2>Question2</h2>
+        <div class="radio">
+            <label>
           <input type="radio" name="answer2" value="JavaScript" required />
           JavaScript
         </label>
-            </div>
+        </div>
 
-            <div class="radio">
-                <label>
+        <div class="radio">
+            <label>
           <input type="radio" name="answer2" value="Ruby" />
           Ruby
         </label>
-            </div>
+        </div>
 
-            <div class="radio">
-                <label>
+        <div class="radio">
+            <label>
           <input type="radio" name="answer2" value="Python" />
           Python
         </label>
-            </div>
-            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
 
-        </form>
+    </form>
 
-        <form id="formRadio3">
-            <h2>Question 3</h2>
-            <div class="radio">
-                <label>
+    <form id="formRadio3">
+        <h2>Question 3</h2>
+        <div class="radio">
+            <label>
           <input type="radio" name="answer3" value="JavaScript" required />
           JavaScript
         </label>
-            </div>
+        </div>
 
-            <div class="radio">
-                <label>
+        <div class="radio">
+            <label>
           <input type="radio" name="answer3" value="Ruby" />
           Ruby
         </label>
-            </div>
+        </div>
 
-            <div class="radio">
-                <label>
+        <div class="radio">
+            <label>
           <input type="radio" name="answer3" value="Python" />
           Python
         </label>
-            </div>
-
-            <button type="submit" class="btn btn-warning">Calculate!</button>
-        </form>
-        <div id="showResult">
-            <h1>You are:</h1>
-            <div id="JavaScriptResult">
-                <div class="card-smaller">
-                    <h1 class="card-header">JavaScript</h1>
-                    <img class="img card-body " src="img/javascript.png " />
-                </div>
-            </div>
-
-            <div id="RubyResult">
-                <div class="card-smaller">
-                    <h1 class="card-header">Ruby</h1>
-                    <img class="img card-body" src="img/ruby.jpg " />
-                </div>
-            </div>
-
-            <div id="PythonResult">
-                <div class="card-smaller ">
-                    <h1 class="card-header ">Python</h1>
-                    <img class="img card-body" src="img/python.jpg" />
-
-                </div>
-            </div>
-
-
-            <div id="noresult">
-                <h1>You can't make up your mind!</h1>
-                <img class="img" src="img/noresult.jpg" />
-            </div>
-
-            <p>
-                <button class=" btn btn-success " id="btnReset">Reset</button>
-            </p>
-
         </div>
+
+        <button type="submit" class="btn btn-warning">Calculate!</button>
+    </form>
+    <div id="showResult">
+        <h1>You are:</h1>
+        <div id="JavaScriptResult">
+            <div class="card-smaller">
+                <h1 class="card-header">JavaScript</h1>
+                <img class="img card-body" src="img/javascript.png" />
+            </div>
+        </div>
+
+        <div id="RubyResult">
+            <div class="card-smaller">
+                <h1 class="card-header">Ruby</h1>
+                <img class="img card-body" src="img/ruby.jpg" />
+            </div>
+        </div>
+
+        <div id="PythonResult">
+            <div class="card-smaller">
+                <h1 class="card-header">Python</h1>
+                <img class="img card-body" src="img/python.jpg" />
+
+            </div>
+        </div>
+
+
+        <div id="noresult">
+            <h1>You can't make up your mind!</h1>
+            <p> alert(Ruby)</p>
+            <img class="img" src="img/noresult.jpg" />
+        </div>
+        <p><button class="btn btn-success" id="btnReset">Reset</button></p>
+
+    </div>
 
 </body>
 

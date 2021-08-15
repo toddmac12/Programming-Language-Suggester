@@ -5,9 +5,8 @@ $(document).ready(function() {
 
     $("#formRadio1").submit(function(event) {
         event.preventDefault();
-        $("#cow").hide();
-        $("#snake").hide();
-        $("#werewolf").hide();
+
+
         const bestProgramAnswer1 = $("input:radio[name=answer1]:checked").val();
         if (bestProgramAnswer1 === "JavaScript") {
             $("#formRadio1").hide();
