@@ -42,16 +42,16 @@ Offer a minimum of 3 different language suggestions.
 To clone and run from GitHub Repo:
 
 In bash at a folder of your choice, type the following:
-$ git clone https://github.com/chansen1395/more-branching8-12
+$ git clone 
 $ code .
 Use a program such as VSCode to view and run the program.
-Alternatively, see links below to open in your browser using the Reach this webpage through the browser of your choice using the Active gh-pages link
+
 
 Recommend using the most up to date version of your browser.
 
 Links to GitHub repositories can be run in VSCode or a similar application.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
 
 ## Known Bugs
 
