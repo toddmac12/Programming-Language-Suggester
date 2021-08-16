@@ -1,7 +1,7 @@
 
 
 #### _{Brief description of application}_
-an application for people interested in coding to decide which language they should learn first.
+This is an application for people interested in coding to decide which language they should learn first.
 
 #### By _**{List of contributors}**_
 Anthony McRae
@@ -27,7 +27,7 @@ JavaScript
 Python
 
 
-The Programming Language Suggester will asks future students a 5 questions about themselves and provides a language suggestion based on their answers as well as alinkto Epicodus Computer Boot Camp School. 
+The Programming Language Suggester will asks future students 5 questions about themselves and provides a language suggestion based on their answers as well as a link to Epicodus Computer Boot Camp School. 
 
 ## Setup/Installation Requirements
 
